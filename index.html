@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="main">
+      <form action="" onsubmit="dataCatcher(event)">
+        <h1 id="h1">Registration Form</h1>
+        <div class="name">
+          <label for="name">Name : </label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter Your Name"
+            required
+            autofocus
+          />
+        </div>
+        <div class="email">
+          <label for="email">Email :</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter Your Email"
+            required
+          />
+        </div>
+        <div class="password">
+          <label for="password">Password :</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Your Password"
+          />
+        </div>
+        <div class="gender">
+          <label for="gender">Select Your Gender :</label>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male" />
+
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female" />
+        </div>
+
+        <!-- <div class="city">
+          <label for="selectCity">Select City</label>
+          <select name="" id="selectCity">
+            <option value="" hidden>Select City</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Quetta">Quetta</option>
+            <option value="Peshawar">Peshawar</option>
+            <option value="Lahore">Lahore</option>
+          </select>
+        </div> -->
+        <button type="submit">jiyo</button>
+        <!-- <input type="button"  /> jiyo -->
+      </form>
+    </div>
+  </body>
+</html>
