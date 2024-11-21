@@ -10,7 +10,7 @@
 .main {
   width: 100vw;
   height: 100vh;
-  background-color: orange;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,12 +20,44 @@
 
 form {
   background-color: white;
-  width: 350px;
+  width: 310px;
   height: 450px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
+}
+
+#name,
+#password,
+#email {
+  width: 220px;
+  padding-left: 20px;
+  height: 30px;
+  border-color: #3be477;
+}
+
+#selectCity {
+  width: 180px;
+  padding-left: 15px;
+  height: 30px;
+  border-color: #3be477;
+  &:hover {
+    background-color: #3be477;
+    cursor: pointer;
+  }
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: #3be477;
   font-size: 20px;
+  &:hover {
+    cursor: pointer;
+    background-color: #3be477;
+  }
 }
